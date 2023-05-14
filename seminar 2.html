@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: #5f157d;
+            color: rgb(255, 255, 255);
+            width: 60%;
+            padding: 20px;
+        }
+        
+        .container {
+            position: center;
+            width: 1200px;
+            height: 300px;
+            background-color: white;
+            color: black;
+        }
+        
+        .container .box {
+            position: absolute;
+            left: 35%;
+            top: 20%;
+            border: 5px;
+            width: 500px;
+            height: 500px;
+            background: linear-gradient(135deg, #ff82fc, #35d2c5);
+        }
+        
+        .center {
+            margin: auto;
+            width: 50%;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form style="border:1px  #ccc">
+        <div align="center" class="container">
+            <div align="center" class="box">
+                <h1>create your account</h1>
+                username:<br>
+                <input type="text" name="username" required>
+                <br>
+                <br> email:
+                <br>
+                <input type="email" name="email" required>
+                <br>
+                <br> password:
+                <br>
+                <input type="text" placeholder="at least 6 character" name="password" required>
+                <br>
+                <br> password again:<br>
+                <input type="text" name="password again" required>
+                <br>
+                <br>
+                <button placeholder="continue">continue</button>
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
